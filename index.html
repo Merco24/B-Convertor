@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-Conversor</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h3><span>B</span>CONVERTOR</h3>
+        <nav>
+            <ul>
+                <li><a href="">ACCEUIL</a></li>
+                <li><a href="">PORT-FOLIO</a></li>
+                <li><a href="">CONNEXION</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <label for="in-num">Enter your number</label>
+        <div class="contain">
+            <input type="number" id="in-num" required maxlength="5">
+            <div class="choice">
+                Binary<input type="radio" id="binary" value="Binary" name="choice">
+                Hexadecimal<input type="radio" id="hexadecimal" value="Hexadecimal" name="choice">
+                Octal<input type="radio" id="octal" value="Octal" name="choice">
+            </div>
+            <button id="btn-submit">CONVERSION</button>
+        </div>
+        
+    </main>
+    <footer>
+        <p>copyright by Merco Dev.Design</p>
+    </footer>
+</body>
+</html>
