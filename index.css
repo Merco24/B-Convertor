@@ -93,7 +93,7 @@ button{
     border-color: rgb(140, 140, 219);
     background-color: rgb(140, 140, 219);
     color: black;
-    transition: all 0,8s ease-in-out;
+    transition: all 0,95s ease-in;
     justify-content: center;
 }
 button:hover{
