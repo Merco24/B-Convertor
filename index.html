@@ -21,13 +21,18 @@
     <main>
         <label for="in-num">Enter your number</label>
         <div class="contain">
-            <input type="number" id="in-num" required maxlength="5">
+            <input type="number" id="in-num"step="10" required />
             <div class="choice">
                 Binary<input type="radio" id="binary" value="Binary" name="choice">
                 Hexadecimal<input type="radio" id="hexadecimal" value="Hexadecimal" name="choice">
                 Octal<input type="radio" id="octal" value="Octal" name="choice">
             </div>
+
             <button id="btn-submit">CONVERSION</button>
+            <p id="p-result">Result</p>
+            <div class="result">
+                
+            </div>
         </div>
         
     </main>

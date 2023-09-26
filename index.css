@@ -50,7 +50,7 @@ nav ul li a:hover{
 /*Main*/
 main{
     max-width: 450px;
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -78,6 +78,9 @@ main .contain{
     height: 30px;
     width: 300px;
     border-color: rgb(140, 140, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .choice{
     display: flex;
@@ -98,16 +101,36 @@ button{
 }
 button:hover{
     max-width: 400px;
+    box-shadow: 0.5px 1px 5px rgba(7, 7, 7, 0.9);
     height: 40px;
     background-color: beige;
     border-color: rgb(140, 140, 219);
     color: rgb(140, 140, 219);
 }
 
+.result{
+    max-width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    overflow: auto;
+}
 
+#p-result {
+    margin-left: 40%;
+    margin-top: 10px;
+    text-decoration: underline;
+}
 /* Footer */
 footer p{
     position: absolute;
+    color: beige;
     bottom: 5px;
     display: flex;
     right: 5%;
